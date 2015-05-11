@@ -17,6 +17,15 @@
 		}
 	});
 
+	$(window).scroll(function() {
+		if ($(".navbar").offset().top > 50) {
+		$(".logo_image").addClass("invisible");
+		}
+		else {
+			$(".logo_image").removeClass("invisible")
+		}
+	});
+
 	//jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
 		$('.navbar-nav li a').bind('click', function(event) {

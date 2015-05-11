@@ -346,8 +346,16 @@ hr {
 }
 
 .intro .slogan h4 {
-	color: #fff;
+	color: #000;
 	text-shadow: -1px 1px 1px #000;
+}
+
+.intro .slogan h5 {
+  color: #000;
+}
+
+.intro .text_color {
+  color: #F19D38;
 }
 
 
@@ -368,6 +376,10 @@ hr {
 	margin-bottom: 10px;
 }
 
+.team p.about {
+  font-size: 80%;
+}
+
 .avatar {
 	margin-bottom: 20px;
 }
@@ -380,6 +392,12 @@ hr {
 
 .team-social {
 	text-align: center;
+}
+
+.team-about {
+  text-align: center;
+  color: #000;
+
 }
 
 .team-social li{
@@ -409,13 +427,13 @@ hr {
 }
 .team-social .social-facebook a{background: #3873ae;}
 .team-social .social-twitter a{background: #62c6f8;}
-.team-social .social-dribble a{background: #d74980;}
+.team-social .social-linkedin a{background: #d74980;}
 .team-social .social-deviantart a{background: #8da356;}
 .team-social .social-google a{background: #000;}
 .team-social .social-vimeo a{background: #51a6d3;}
 .team-social .social-facebook a:hover{background: #4893ce;}
 .team-social .social-twitter a:hover{background: #82e6ff;}
-.team-social .social-dribble a:hover{background: #f769a0;}
+.team-social .social-linkedin a:hover{background: #f769a0;}
 .team-social .social-deviantart a:hover{background: #adc376;}
 .team-social .social-google a:hover{background: #333;}
 .team-social .social-vimeo a:hover{background: #71c6f3;}
